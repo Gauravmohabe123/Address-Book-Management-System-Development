@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Adress_management
 {
-    internal class contact
+    public class contact
     {
         public string FirstName;
         public string LastName;
