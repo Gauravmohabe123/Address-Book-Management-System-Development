@@ -6,7 +6,9 @@ namespace Adress_management
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Address Book Management System Development");
+            Console.WriteLine("Address Book System");
+            Adress obj = new Adress();
+            Console.WriteLine(obj.AddContact());
         }
     }
 }
